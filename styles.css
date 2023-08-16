@@ -1,0 +1,213 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about,
+.research,
+.contact {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* Previous styling rules remain */
+
+.research {
+    background-color: #f7f7f7;
+}
+
+.research h2 {
+    color: #333;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.research-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.research-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 300px;
+}
+
+.research-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.research-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.research-card p {
+    color: #666;
+}
+
+/* Additional styling and media queries for responsiveness */
+/* Previous styling rules remain */
+
+.publications {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+.publications h2 {
+    color: #333;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.publications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.publication {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.publication h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.publication p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Previous styling rules remain */
+
+/* Background styling */
+header {
+    background-image: url('https://www.ift.org/-/media/news-and-publications/journals/journals_1200x667.jpg?mw=2580&hash=0A35461F7267AC166194E0F9F6FD02CF');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about,
+.contact {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+/* Research section styling */
+.research {
+    background-image: url('https://images.theconversation.com/files/168978/original/file-20170511-32618-121i8zo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip');
+    background-size: cover;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.research h2 {
+    color: #fff;
+    padding-top: 1rem;
+}
+
+/* Publications section styling */
+.publications {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.publications h2 {
+    padding-top: 1rem;
+}
+
+/* Additional styling for images, backgrounds, and responsive design */
+
+/* Previous styling rules remain */
+
+/* Background styling */
+/* Adjust as needed */
+
+/* Research section styling */
+/* Adjust as needed */
+
+.research-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.research-card {
+    /* Card styling as before */
+}
+
+.research-card p a {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+/* Publications section styling */
+/* Adjust as needed */
+/* Previous styling rules remain */
+
+/* Contact section styling */
+.contact {
+    background-image: url('https://media.istockphoto.com/id/1466890104/photo/contact-us-and-support-concept-and-digital-network-with-blue-space-background.webp?b=1&s=170667a&w=0&k=20&c=QwC6tB9L62PuahdJYOc6Ae0ciLjy1Ti5AcTrwMzBj7E=');
+    background-size: cover;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    padding-top: 1rem;
+}
